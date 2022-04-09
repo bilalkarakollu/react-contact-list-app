@@ -1,0 +1,30 @@
+.list{
+    margin: 15px 0;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone_number {
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.list_length{
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}

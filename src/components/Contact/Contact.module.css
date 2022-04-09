@@ -1,0 +1,11 @@
+.container{
+    width:400px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

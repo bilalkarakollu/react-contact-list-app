@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './Form.module.css'
 
 const initialFormValues = { fullname: "", phone_number: "" };
 
@@ -20,6 +21,7 @@ function Form({contacts, setContacts}) {
 
     return (
         <div>
+            <h2 className={styles.title}>Add Contact</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <input onChange={handleChange} value={form.fullname} type="text" name='fullname' placeholder='Full Name' />
