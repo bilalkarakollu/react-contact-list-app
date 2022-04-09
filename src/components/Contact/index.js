@@ -9,7 +9,7 @@ function Contact() {
   return (
     <>
         <Form contacts={contacts} setContacts={setContacts}/>
-        <List/>
+        <List contacts={contacts}/>
     </>
   )
 }
